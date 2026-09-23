@@ -18,6 +18,7 @@ function handleIframeMessage(event: MessageEvent) {
 
 export default defineContentScript({
   matches: ["*://*/*"], // The external website hosting the iframe
+  allFrames: true,
   main(ctx) {
     ctx.addEventListener(window, "message", handleIframeMessage);
   },

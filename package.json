@@ -2,7 +2,7 @@
   "name": "CCO Service",
   "description": "A Chrome Extension, built for CCO",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "module",
   "scripts": {
     "dev": "wxt",
